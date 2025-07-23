@@ -1,4 +1,5 @@
 # Amazone-clone
+
 # Introduction
 
 This project is a comprehensive **frontend clone of the Amazon e-commerce website**, developed using only **HTML**, **CSS**, and **Vanilla JavaScript**. The primary goal of this project is to simulate the user experience and visual structure of a real-world e-commerce platform while reinforcing core frontend development skills. It includes a homepage showcasing multiple products with actionable buttons, a responsive layout, a navigational header and footer, and a separate login page with validation logic.
