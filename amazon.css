@@ -1,0 +1,327 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position:relative;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  position: relative;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #d4cece;
+}
+
+/* Header */
+.header {
+  background-color: #232F3E;
+  color: rgb(213, 204, 204);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 20px;
+  position: calc();
+  
+}
+
+.logo img {
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position:relative;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+
+.search-bar input   {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 0px;
+  position:relative;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #b87221;
+  border: none;
+  cursor: pointer;
+  margin-left: 0px;
+  margin-bottom: 0%;
+  border-radius: 5px;
+  gap: 0px;
+  position:relative;
+}
+.search-bar select{
+  padding:9px;
+  margin: 0px
+  
+}
+
+.user-info a .cart i {
+  color:rgb(210, 205, 205);
+  margin-left: 10px;
+  font-size: medium;
+  font-weight: 700;
+  position:relative;
+}
+.user-info:hover{
+cursor: pointer;
+}
+.nav-return:hover{
+  cursor: pointer;
+}
+.nav-hello:hover{
+  cursor: pointer;
+}
+.cart:hover{
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section img{
+  width: 100%;
+  padding-bottom:px;
+  height: 550px;
+  object-fit: cover;
+  margin-bottom:0px;
+  position:relative;
+  
+}
+.channel h2{
+  height:23px;
+  width: 100%;
+  background-color: #e7bc91;
+  margin-bottom:5px;
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+
+/*shop-section*/
+.shop-section{
+  display: flex;
+  justify-content:space-evenly;
+  background-color: #eceae7;
+  flex-wrap: wrap;
+}
+.box{
+  height: 320px;
+  border: 2px solid rgb(222, 224, 210);
+  background-color: #71d871;
+  width: 23%;
+  margin-bottom:20px;
+  border-radius: 9px;
+  color: black;
+  justify-content:space-between;
+  
+}
+.box img{
+  height: 180px;
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+.box img:hover{
+    cursor: pointer;
+}
+.box h3{
+  font-size: medium;
+  font-weight: 600;
+}
+.boxk h2{
+  font-size:large;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.boxk  a{
+  text-decoration-line: underline;
+  color: black;
+  margin: 9px;
+}
+.boxk img{
+  height: 270px;
+  width: 200px;
+}
+.boxk img:hover{
+  cursor: pointer;
+}
+.box button{
+  background-color:#ff9900;
+  text-align: center;
+  padding: 2px 10px 20px 10px;
+  margin: 6px 70px 5px 50px;
+  width: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 23px;
+  border-radius: 9px;
+  border-style: none;
+  font-size:16px;
+  
+  
+}
+.box button:hover{
+  cursor: pointer;
+}
+.boxk{
+height: 300px;
+width: 100%;
+border: 2px solid rgb(214, 208, 208);
+margin-bottom: 20px;
+background-color: #76dc6b;
+color: #040505;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.panel1{
+  background-color: #333;
+  color: #8c8787;
+  margin-top:0px;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+
+}
+.panel1:hover{
+  cursor: pointer;
+}
+.panel2{
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #cbd3d3;
+}
+hr{
+  border-color: rgb(84, 85, 85);
+}
+ul a{
+  color: #d6d9d6;
+  display: flex;
+  margin-top: 0px;
+}
+.navbar2{
+  background-color: #090a0a;
+  color:white;
+  display: flex;
+  justify-content:space-evenly;
+  height: 35px;
+ justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+.navbar2:hover{
+  cursor: pointer;
+}
+.navbar2 a{
+  color: rgb(234, 232, 232);
+  cursor: pointer;
+}
+.unlist li {
+  display:block;
+  list-style: none;
+  
+}
+.nav-return{
+  justify-content:space-evenly;
+  padding-right: 40px;
+}
+.nav-hello{
+  padding-right:40px;
+  justify-content: space-evenly;
+}
+.user-info{
+  padding-right:40px;
+  justify-content: space-evenly;
+}
+.box10-50{
+  width: 380px;
+  height: 304px;
+  border: 2px solid rgb(232, 226, 226);
+  margin-bottom: 20px;
+  background-color: rgb(179, 233, 97);
+}
+.box10-50 img{
+width: 357px;
+height: 250px;
+padding:2px 2px 1px 15px;
+}
+.smallbox{
+  height: 315px;
+  width:350px;
+  border: 2px solid rgb(245, 243, 243);
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding:10px 6px 8px 9px;
+  
+}
+.smallcolor{
+  height: 125px;
+  width: 150px;
+  border:solid transparent rgb(243, 239, 239);
+  cursor: pointer;
+  border-style: none;
+  
+ 
+}
+.h3tag{
+  margin-top:0%;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+.smallcolor img{
+  width: 100px;
+  height:80px;
+  padding: 5px 9px 12px 12px;
+  cursor: pointer;
+  
+  
+}
+.h4tag{
+  font-size:medium;
+  cursor: pointer;
+  font-style: normal;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  
+}
